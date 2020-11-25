@@ -565,6 +565,10 @@ footer{
       font-size: 35px;
       text-align: center;
    }
+   .portfolio-content:hover .portfolio-img::after{
+      width: 0%;
+      opacity: 1;
+   }
    .partnership {
       padding-bottom: 75px;
       text-align: center;

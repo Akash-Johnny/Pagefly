@@ -34,7 +34,7 @@ a, a:hover{
    width: 150px;
 }
 .navbar{
-   padding: 25px 0;
+   padding: 20px 0;
    border-bottom: 2px solid #cccccc59;
 }
 .navbar-nav{
@@ -301,6 +301,9 @@ footer{
    margin-bottom: 20px;
    text-transform: uppercase;
 }
+.footer-content ul li{
+   padding: 5px 0;
+}
 .footer-content ul li a{
    color: var(--color-4);
    font-size: 14px;
@@ -320,6 +323,9 @@ footer{
 
  /* ===== MEDIA QUERY CODES STARTED =====  */
  @media (min-width: 1400px) {
+   .navbar-brand img{
+      width: 160px;
+   }
    .navbar-light .navbar-nav .nav-link {
       font-size: 17px;
    }
@@ -330,29 +336,34 @@ footer{
    .card-text{
       width: 90%;
       margin: auto;
+      font-size: 16px;
    }
    .join-text h3 {
       font-size: 35px;
    }
+   .join-text h4 {
+      max-width: 95%;
+   }
    .join-text p {
-      font-size: 15px;
+      font-size: 16px;
       line-height: 1.6;
    }
    .portfolio-content p {
-      font-size: 15px;
+      font-size: 16px;
       line-height: 1.6;
    }
    .partnership-content p {
-      font-size: 15px;
+      font-size: 16px;
+      line-height: 1.6;
    }
    .footer-content ul li a {
-      font-size: 15px;
+      font-size: 16px;
    }
    .footer-content h3 {
       font-size: 21px;
    }
    .copyright p {
-      font-size: 15px;
+      font-size: 16px;
    }
 }
 
@@ -506,6 +517,9 @@ footer{
    .footer-content h3 {
       font-size: 19px;
       line-height: 1.5;
+   }
+   .footer-content ul li{
+      padding: 3px 0;
    }
    .footer-content ul li a {
    font-size: 13px;

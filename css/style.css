@@ -237,10 +237,9 @@ a, a:hover{
    color: var(--color-3);
    font-size: 14px;
 }
-/* ===== PORTFOLIO SECTION STARTED ===== */
+/* ===== PORTFOLIO SECTION ENDED ===== */
 
 /* ===== PARTNERSHIP SECTION STARTED ===== */
-/* ===== PARTNERSHIP SECTION ENDED ===== */
 .partnership{
    padding-bottom: 100px;
 }
@@ -285,6 +284,8 @@ a, a:hover{
 .partnership .btn:hover{
    background: var(--hover);
 }
+/* ===== PARTNERSHIP SECTION ENDED ===== */
+
 /* ===== FOOTER SECTION STARTED ===== */
 footer{
    padding: 80px 0 20px;
